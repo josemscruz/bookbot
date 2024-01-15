@@ -8,7 +8,8 @@ def main():
             char = text[i].lower()
         if char not in letters:
             letters[char] = 1
-        letters[char] += 1
+        else:
+            letters[char] += 1
     print(letters)
 
 def get_num_words(text):
